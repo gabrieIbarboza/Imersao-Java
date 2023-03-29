@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StickerGenerator",
+            "request": "launch",
+            "mainClass": "StickerGenerator",
+            "projectName": "Movies-Explorer_88889b70"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
