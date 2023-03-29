@@ -25,7 +25,7 @@ Criamos o `StickerGenerator.java` para gerar figurinhas por código com os dados
 Resultado:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/imdb/1_StrangerThings.png" width="200" height="250"/>
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/imdb/2_TheBoys.png" width="200" height="250"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/imdb/1_StrangerThings.png" width="200" height="287"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/imdb/2_TheBoys.png" width="200" height="287"/>
   <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/imdb/3_TheTerminalList.png" width="200" height="287"/>
 </p>
