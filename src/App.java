@@ -1,46 +1,43 @@
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
-import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
         
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
+        //String apiName = "IMDB";
+        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD.json";
+        String apiName = "NASA";
 
         // Conexão HTTP para buscar dados na API
-        var httpClient = new ClientHttp();
+        ClientHttp httpClient = new ClientHttp();
         String resquestedData = httpClient.requestData(url);
     
-        // Extrair dados desejados (título, poster, classificação)
-        JsonParser jsonParser = new JsonParser();
-        List<Map<String, String>> contentList = jsonParser.parse(resquestedData);
+        // Extrair dados desejados (título, imagem)
+        ContentExtractor extractor = new ContentExtractor();
+        List<Content> contents = extractor.extractContents(resquestedData, apiName);
 
         // Manipular e exibir os dados
 
         StickerGenerator stickerGenerator = new StickerGenerator();
 
-        for (Map<String,String> content : contentList) {
+        for (int i = 0; i < contents.size(); i++)
+        {
+            Content content = contents.get(i);
 
-            var rating = Float.parseFloat(content.get("imDbRating"));
-			String star = "";
-			for (int i = 0; i < rating; i++) {
-				star += "⭐";
-			}
-            
-            System.out.println(content.get("title"));
-            System.out.println(content.get("image"));
-            System.out.println(String.format("Rating: %.1f %s", rating, star));
+            System.out.println(content.getTitle());
+            System.out.println(content.getImageURL());
 
             // Gerar Sticker
-            String imageURL = (content.get("image"));
-            String stickerName = ((content.get("rank")) + "_" + (content.get("title")))
-                .replaceAll("\\s+","");
+            String imageURL = (content.getImageURL());
+            String stickerName = (i + 1) + "_" + ((content.getTitle())
+                .replaceAll("[^a-zA-Z]","")
+                .trim());
             InputStream imageInputStream = new URL(imageURL).openStream();;
-            String strickerText = (content.get("title"));
+            String strickerText = (content.getTitle());
 
-            stickerGenerator.create(stickerName, imageInputStream, strickerText);
-
+            stickerGenerator.create(stickerName, imageInputStream, strickerText, apiName);
         }
     }
 }
