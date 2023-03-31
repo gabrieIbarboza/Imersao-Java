@@ -87,7 +87,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD
 ## Dia 04: ##
 
 
-Criei minha própria API chamada BarbozaFirstAPI (BARB) usando Spring e MongoDB.
+Criei minha própria API chamada <a href="https://https://github.com/gabrieIbarboza/Barboza-First-API" target="_blank">`BarbozaFirstAPI`</a> (BARB) usando Spring e MongoDB.
 <br>
 Integrei ela ao projeto original para gerar stickers realmente customizados de The Last Of Us (pois foi o que cadastrei na API).
 <br>
@@ -100,11 +100,11 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 </p>
 
 ### Desafios
-1 - Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
+1- Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
 
-2 - Devolver a listagem ordenada por ordem algabética.
+2- Devolver a listagem ordenada por ordem algabética.
 
-3 - Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
+3- ✔️ Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
 
 
 ## Dia 05: ##
