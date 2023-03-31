@@ -94,9 +94,9 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 
 ### Resultados
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/1_Joel.png" width="280" height="236"/>
-  <!--<img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/2_Ellie.png" width="280" height="236"/>-->
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/3_TLOUdaGlobo" width="280" height="236"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/1_Joel.png" width="280" height="246"/>
+  <!--<img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/2_Ellie.png" width="280" height="246"/>-->
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/3_TLOUdaGlobo.png" width="280" height="246"/>
 </p>
 
 ### Desafios
