@@ -6,6 +6,7 @@ public class ContentExtractor implements IContentExtractor {
 
     private static final String API_NASA = "NASA";
     private static final String API_IMDB = "IMDB";
+    private static final String API_BARB = "BARB"; //BARB is my API
     
     public List<Content> extractContents(String json, String apiName) {
 
@@ -23,8 +24,9 @@ public class ContentExtractor implements IContentExtractor {
 
                 String title = content.get("title");
                 String imageURL = content.get("url");
+                String quote = title;
 
-                var genericContent = new Content(title, imageURL);
+                var genericContent = new Content(title, imageURL, quote);
 
                 genericContentList.add(genericContent);
 
@@ -37,8 +39,24 @@ public class ContentExtractor implements IContentExtractor {
 
                 String title = content.get("title");
                 String imageURL = content.get("image");
+                String quote = title;
 
-                var genericContent = new Content(title, imageURL);
+                var genericContent = new Content(title, imageURL, quote);
+
+                genericContentList.add(genericContent);
+
+            }
+        }
+        else if (apiName == API_BARB)
+        {
+            // Popular lista de conteúdos genérica
+            for (Map<String,String> content : contentList) {
+
+                String title = content.get("title");
+                String imageURL = content.get("imageUrl");
+                String quote = content.get("quote");
+
+                var genericContent = new Content(title, imageURL, quote);
 
                 genericContentList.add(genericContent);
 
