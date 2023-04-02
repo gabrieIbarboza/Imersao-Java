@@ -9,7 +9,7 @@ public class App {
         //String apiName = "IMDB";
         //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD.json";
         //String apiName = "NASA";
-        String url = "http://localhost:8080/barboza-first-api";
+        String url = "https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api";
         String apiName = "BARB";
 
         // Conexão HTTP para buscar dados na API

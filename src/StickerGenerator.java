@@ -33,13 +33,13 @@ public class StickerGenerator {
         graphics.drawImage(image, 0, 0, null);
 
         // copiar "me.png" para nova imagem
-        BufferedImage imageMe = ImageIO.read(new File("src/assets/img/me.png"));
-        int yPositionMe = (imageHeight - imageMe.getHeight());
-        graphics.drawImage(imageMe, 0, yPositionMe, null);
+            //BufferedImage imageMe = ImageIO.read(new File("src/assets/img/me.png"));
+            //int yPositionMe = (imageHeight - imageMe.getHeight());
+            //graphics.drawImage(imageMe, 0, yPositionMe, null);
 
         // configurar fonte
         Font strickerFont = new Font(Font.SANS_SERIF, Font.BOLD, 64);
-        graphics.setColor(Color.MAGENTA);
+        graphics.setColor(Color.YELLOW);
         graphics.setFont(strickerFont);
 
         // escrever na nova imagem

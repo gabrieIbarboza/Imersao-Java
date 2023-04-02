@@ -5,7 +5,7 @@
 </p>
 
 
-## Dia 01: ##
+## Dia 01 - Consumindo uma API de filmes com Java ##
 
 
 Buscar dados de filmes na API do site https://www.imdb.com para os melhores rankeados na aplicação. <br>
@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopul
 3- Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.
 
 
-## Dia 02: ##
+## Dia 02 - Gerando figurinhas para WhatsApp ##
 
 
 Criamos o `StickerGenerator.java` para gerar figurinhas por código com os dados da API.
@@ -55,7 +55,7 @@ Criamos o `StickerGenerator.java` para gerar figurinhas por código com os dados
 5- ✔️ Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha.
 
 
-## Dia 03: ##
+## Dia 03 - Ligando as pontas, refatoração e orientação a objetos ##
 
 Dia de fazer melhoras e refatorações no código para torná-lo mais flexível e fácil de entender (OOP).
 <br>
@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD
 4- Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
 
 
-## Dia 04: ##
+## Dia 04 - Criando nossa própria API com Spring ##
 
 
 Criei minha própria API chamada <a href="https://https://github.com/gabrieIbarboza/Barboza-First-API" target="_blank">`BarbozaFirstAPI`</a> (BARB) usando Spring e MongoDB.
@@ -94,18 +94,24 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 
 ### Resultados
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/1_Joel.png" width="280" height="246"/>
-  <!--<img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/2_Ellie.png" width="280" height="246"/>-->
-  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/3_TLOUdaGlobo.png" width="280" height="246"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/1_Joel.png" width="200" height="260"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/3_Ellie.png" width="200" height="260"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/2_TLOUdaGlobo.png" width="200" height="260"/>
 </p>
 
 ### Desafios
-1- Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
+1- ✔️ Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
 
 2- Devolver a listagem ordenada por ordem algabética.
 
 3- ✔️ Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
 
 
-## Dia 05: ##
-`Coming soon...`
+## Dia 05 - Publicando nossa API no Cloud ##
+Tornai a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem com Microsoft Azure. Além disso, gerei as figurinhas a partir do conteúdo dessa API.
+
+<a href="https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api" target="_blank">`Clique para acessar diretamente a API`</a>
+
+### Material Complementar
+
+<ul><li>Artigo da Alura <a href="https://www.alura.com.br/artigos/comecando-com-docker">“Começando com Docker“</a></li><li>Artigo da Alura <a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">“Heroku, Vercel e outras opções de Cloud como plataforma”</a>.</li><li>Podcast Hipters.Tech <a href="https://www.alura.com.br/podcast/hipsterstech-integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335">“Integração Contínua, Deploy Contínuo e Github Actions”</a>.</li><li>Pesquisa da JetBrains, empresa que desenvolve a IDE IntelliJ, <a href="https://www.jetbrains.com/lp/devecosystem-2021/java/" target="_blank" rel="noopener">sobre o ecossistema Java em 2021</a>.</li></ul>
