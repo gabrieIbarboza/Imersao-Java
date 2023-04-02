@@ -4,8 +4,14 @@
   <a href="https://www.alura.com.br/imersao-java"><img src="https://www.alura.com.br/assets/img/imersao-java/imersao-logo.1676983691.svg" alt="Imersao-java"></a>
 </p>
 
+## Summary
+- [Dia 1 - Consumindo uma API de filmes com Java](#dia-1---consumindo-uma-api-de-filmes-com-java)
+- [Dia 2 - Gerando figurinhas para WhatsApp](#dia-2---gerando-figurinhas-para-whatsapp)
+- [Dia 3 - Ligando as pontas, refatoração e orientação a objetos](#dia-3---ligando-as-pontas-refatora%C3%A7%C3%A3o-e-orienta%C3%A7%C3%A3o-a-objetos)
+- [Dia 4 - Criando nossa própria API com Spring](#dia-4---criando-nossa-pr%C3%B3pria-api-com-spring)
+- [Dia 5 - Publicando nossa API no Cloud](#dia-5---publicando-nossa-api-no-cloud)
 
-## Dia 01 - Consumindo uma API de filmes com Java ##
+## Dia 1 - Consumindo uma API de filmes com Java
 
 
 Buscar dados de filmes na API do site https://www.imdb.com para os melhores rankeados na aplicação. <br>
@@ -29,8 +35,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopul
 3- Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.
 
 
-## Dia 02 - Gerando figurinhas para WhatsApp ##
-
+## Dia 2 - Gerando figurinhas para WhatsApp
 
 Criamos o `StickerGenerator.java` para gerar figurinhas por código com os dados da API.
 
@@ -55,7 +60,7 @@ Criamos o `StickerGenerator.java` para gerar figurinhas por código com os dados
 5- ✔️ Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha.
 
 
-## Dia 03 - Ligando as pontas, refatoração e orientação a objetos ##
+## Dia 3 - Ligando as pontas, refatoração e orientação a objetos
 
 Dia de fazer melhoras e refatorações no código para torná-lo mais flexível e fácil de entender (OOP).
 <br>
@@ -84,10 +89,12 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD
 4- Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
 
 
-## Dia 04 - Criando nossa própria API com Spring ##
+## Dia 4 - Criando nossa própria API com Spring
 
 
-Criei minha própria API chamada <a href="https://https://github.com/gabrieIbarboza/Barboza-First-API" target="_blank">`BarbozaFirstAPI`</a> (BARB) usando Spring e MongoDB.
+Criei minha própria API chamada <a href="https://github.com/gabrieIbarboza/Barboza-First-API" target="_blank">`BarbozaFirstAPI (BARB)`</a> usando Spring e MongoDB.
+<br>
+<a href="https://github.com/gabrieIbarboza/Barboza-First-API" target="_blank">`Clique para acessar o repositório da minha API!`</a>
 <br>
 Integrei ela ao projeto original para gerar stickers realmente customizados de The Last Of Us (pois foi o que cadastrei na API).
 <br>
@@ -107,7 +114,7 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 3- ✔️ Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
 
 
-## Dia 05 - Publicando nossa API no Cloud ##
+## Dia 5 - Publicando nossa API no Cloud
 Tornai a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem com Microsoft Azure. Além disso, gerei as figurinhas a partir do conteúdo dessa API.
 
 <a href="https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api" target="_blank">`Clique para acessar diretamente a API`</a>
