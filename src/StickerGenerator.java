@@ -1,6 +1,3 @@
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -37,20 +34,9 @@ public class StickerGenerator {
             //int yPositionMe = (imageHeight - imageMe.getHeight());
             //graphics.drawImage(imageMe, 0, yPositionMe, null);
 
-        // configurar fonte
-        Font strickerFont = new Font(Font.SANS_SERIF, Font.BOLD, 64);
-        graphics.setColor(Color.YELLOW);
-        graphics.setFont(strickerFont);
-
-        // escrever na nova imagem
-        FontMetrics fm = graphics.getFontMetrics();
-        if(fm.stringWidth(strickerText) > imageWidth){
-            graphics.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 40));
-            fm = graphics.getFontMetrics();
-        } //Diminui tamanho da fonte se width da string for maior do que a width da imagem
-        int xPostion = (imageWidth - fm.stringWidth(strickerText)) / 2;
-        int yPosition = imageHeight + ((newImageHeight - imageHeight) / 2);
-        graphics.drawString(strickerText, xPostion, yPosition);
+        // escrever na figurinha
+        StickerWritter stickerWritter = new StickerWritter();
+        stickerWritter.writeOnTheSticker(strickerText, graphics, imageWidth, imageHeight, newImageHeight);
 
         // converter nova imagem em arquivo
         String dirPath = String.format("output/%s/%s.png", apiName, stickerName);
