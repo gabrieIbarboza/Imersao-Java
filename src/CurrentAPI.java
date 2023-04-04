@@ -18,8 +18,7 @@ public class CurrentAPI {
                 this.url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
                 break;
             default:
-                this.url = "https://no-api-found-for-gabrielbarbozasapp.com";
-                break;
+                throw new CurrentAPIException("Currrent API name not found!");
         }
 
     }
