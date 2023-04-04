@@ -21,8 +21,9 @@ public class ClientHttp {
             return response.body();
 
         } catch (IOException | InterruptedException ex) {
-            //throw new RuntimeErrorException(ex);
-            return null;
+
+            throw new ClientHttpException("Error while fetching URL :(");
+            
         }
 
         
