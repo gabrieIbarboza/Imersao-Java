@@ -80,7 +80,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD
 </p>
 
 ### Desafios
-1- Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.
+1- ✔️ Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.
 
 2- Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.
 

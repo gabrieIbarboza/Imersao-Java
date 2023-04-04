@@ -5,12 +5,12 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
-        String apiName = "IMDB";
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
+        //String apiName = "IMDB";
         //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD.json";
         //String apiName = "NASA";
-        //String url = "https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api";
-        //String apiName = "BARB";
+        String url = "https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api";
+        String apiName = "BARB";
 
         // Conexão HTTP para buscar dados na API
         ClientHttp httpClient = new ClientHttp();
@@ -28,17 +28,17 @@ public class App {
         {
             Content content = contents.get(i);
 
-            System.out.println(content.getTitle());
-            System.out.println(content.getImageURL());
-            System.out.println(content.getQuote());
+            System.out.println(content.title());
+            System.out.println(content.imageURL());
+            System.out.println(content.quote());
 
             // Gerar Sticker
-            String imageURL = (content.getImageURL());
+            String imageURL = (content.imageURL());
             InputStream imageInputStream = new URL(imageURL).openStream();
-            String stickerName = (i + 1) + "_" + ((content.getTitle())
+            String stickerName = (i + 1) + "_" + ((content.title())
                 .replaceAll("[^a-zA-Z]","")
                 .trim());
-            String strickerText = (content.getQuote());
+            String strickerText = (content.quote());
 
             stickerGenerator.create(stickerName, imageInputStream, strickerText, apiName);
         }
