@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // Setando API em uso atualmente para gerar URL
-        CurrentAPI currentAPI = new CurrentAPI("BARB");
+        API currentAPI = API.BARBOZA;
 
         // Conexão HTTP para buscar dados na API
         ClientHttp httpClient = new ClientHttp();
@@ -14,7 +14,7 @@ public class App {
     
         // Extrair dados desejados (título, imagem)
         ContentExtractor extractor = new ContentExtractor();
-        List<Content> contents = extractor.extractContents(resquestedData, currentAPI.getName());
+        List<Content> contents = extractor.extractContents(resquestedData, currentAPI.getId());
 
         // Manipular e exibir os dados
 
@@ -36,7 +36,7 @@ public class App {
                 .trim());
             String strickerText = (content.quote());
 
-            stickerGenerator.create(stickerName, imageInputStream, strickerText, currentAPI.getName());
+            stickerGenerator.create(stickerName, imageInputStream, strickerText, currentAPI.getId());
         }
     }
 }
