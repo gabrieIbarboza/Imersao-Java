@@ -1,3 +1,4 @@
+package main.java.br.com.gabrieibarboza.javaexplorer;
 // ClientHttpException herda de RuntimeException
 public class ClientHttpException extends RuntimeException {
 

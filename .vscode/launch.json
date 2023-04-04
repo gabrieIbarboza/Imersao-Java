@@ -9,7 +9,7 @@
             "name": "StickerGenerator",
             "request": "launch",
             "mainClass": "StickerGenerator",
-            "projectName": "Movies-Explorer_88889b70"
+            "projectName": "Java-Explorer_88889b70"
         },
         {
             "type": "java",
@@ -19,10 +19,10 @@
         },
         {
             "type": "java",
-            "name": "App",
+            "name": "JavaExplorerApp",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "Movies-Explorer_88889b70"
+            "mainClass": "br.com.gabrieibarboza/javaexplorer",
+            "projectName": "Java-Explorer_88889b70"
         }
     ]
 }

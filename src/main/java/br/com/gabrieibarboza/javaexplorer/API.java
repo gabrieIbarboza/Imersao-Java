@@ -1,3 +1,4 @@
+package main.java.br.com.gabrieibarboza.javaexplorer;
 public enum API {
     
     BARBOZA("BARB", "https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api"),

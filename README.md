@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopul
 
 2- ✔️ Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI.
 
-3- Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.
+3- [Não se aplica ao meu projeto] Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente.
 
 
 ## Dia 2 - Gerando figurinhas para WhatsApp
@@ -109,7 +109,7 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 ### Desafios
 1- ✔️ Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada.
 
-2- Devolver a listagem ordenada por ordem algabética.
+2- [Não se aplica ao meu projeto] Devolver a listagem ordenada por ordem atributo.
 
 3- ✔️ Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST.
 
@@ -118,6 +118,9 @@ Integrei ela ao projeto original para gerar stickers realmente customizados de T
 Tornai a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem com Microsoft Azure. Além disso, gerei as figurinhas a partir do conteúdo dessa API.
 
 <a href="https://barboza-first-api.agreeablerock-774901b7.southcentralus.azurecontainerapps.io/barboza-first-api" target="_blank">`Clique para acessar diretamente a API`</a>
+
+### Desafio
+1- ✔️ Estruturar projeto com subpastas
 
 ### Material Complementar
 

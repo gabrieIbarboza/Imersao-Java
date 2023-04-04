@@ -1,8 +1,9 @@
+package main.java.br.com.gabrieibarboza.javaexplorer;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
 
-public class App {
+public class JavaExplorerApp {
     public static void main(String[] args) throws Exception {
         
         // Setando API em uso atualmente para gerar URL

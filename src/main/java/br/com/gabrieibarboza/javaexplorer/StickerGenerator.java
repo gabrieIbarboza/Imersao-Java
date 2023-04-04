@@ -1,3 +1,4 @@
+package main.java.br.com.gabrieibarboza.javaexplorer;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -30,7 +31,7 @@ public class StickerGenerator {
         graphics.drawImage(image, 0, 0, null);
 
         // copiar "me.png" para nova imagem
-            //BufferedImage imageMe = ImageIO.read(new File("src/assets/img/me.png"));
+            //BufferedImage imageMe = ImageIO.read(new File("src/main/java/br/com/gabrieibarboza/javaexplorer/assets/me.png"));
             //int yPositionMe = (imageHeight - imageMe.getHeight());
             //graphics.drawImage(imageMe, 0, yPositionMe, null);
 
