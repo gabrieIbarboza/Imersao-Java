@@ -4,7 +4,8 @@
   <a href="https://www.alura.com.br/imersao-java"><img src="https://www.alura.com.br/assets/img/imersao-java/imersao-logo.1676983691.svg" alt="Imersao-java"></a>
 </p>
 
-<a href="https://www.alura.com.br/imersao-java/projetos" target="_blank">`Menção honrosa ao meu projeto no site da Alura`</a>
+<a href="https://www.alura.com.br/imersao-java/projetos" target="_blank">`Menção honrosa ao meu projeto no site da Alura!!!`</a>
+<br>
 <a href="https://www.youtube.com/live/SJPCYTI-QcI?feature=share&t=553" target="_blank">`Live em que a Alura mostra os projetos que receberam menção honrosa`</a>
 
 ## Summary
