@@ -16,7 +16,6 @@ public class StickerWritter {
 
         // configurar fonte
         Font strickerFont = new Font("Impact", Font.BOLD, 64);
-        //graphics.setColor(Color.YELLOW);
         graphics.setColor(Color.YELLOW);
         graphics.setFont(strickerFont);
 

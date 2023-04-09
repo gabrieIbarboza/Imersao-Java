@@ -129,3 +129,11 @@ Tornai a aplicação acessível por qualquer pessoa, fazendo o deploy na nuvem c
 ### Material Complementar
 
 <ul><li>Artigo da Alura <a href="https://www.alura.com.br/artigos/comecando-com-docker">“Começando com Docker“</a></li><li>Artigo da Alura <a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">“Heroku, Vercel e outras opções de Cloud como plataforma”</a>.</li><li>Podcast Hipters.Tech <a href="https://www.alura.com.br/podcast/hipsterstech-integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335">“Integração Contínua, Deploy Contínuo e Github Actions”</a>.</li><li>Pesquisa da JetBrains, empresa que desenvolve a IDE IntelliJ, <a href="https://www.jetbrains.com/lp/devecosystem-2021/java/" target="_blank" rel="noopener">sobre o ecossistema Java em 2021</a>.</li></ul>
+
+## Update 2023/04/09 - Figurinhas Pedro Pascal Dev
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/6_PedroJava.png" width="200" height="260"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/7_PedroJS.png" width="200" height="260"/>
+  <img src="https://raw.githubusercontent.com/gabrieIbarboza/Imersao-Java/master/output/BARB/10_PedroCloudflare.png" width="200" height="260"/>
+</p>
